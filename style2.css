@@ -21,20 +21,32 @@ body {
 .heading {
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 30%; 
     width: 100%;
+    font: bold;
+    /* background: linear-gradient(#25364f,#4d71a5, #9bc4ff);
+    opacity: 0.95; */
 }
 .heading h1 {
     color: white;
     font-size: 70px;
+    /* text-shadow: 0 0 3px #61a6a8, 0 0 5px #6d6df5; */
+    text-shadow:  0 0 3px black;
+
+  
 }
 .heading h3 {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    font-family: italic;
+    /* text-shadow: 0 0 3px #0cabb1, 0 0 5px #0000FF; */
+    /* text-shadow:  0 0 5px #6d6df5; */
+    text-shadow:  0 0 3px black;
+
 }
 #particles-js {
     /* background: rgb(167, 11, 11); */
     background: linear-gradient(#25364f,#4d71a5, #9bc4ff);
-
+    opacity: 1;
     height: 100vh;
 }
